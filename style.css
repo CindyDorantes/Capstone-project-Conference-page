@@ -27,9 +27,15 @@ body {
 }
 
 h1{
-  font-size: 30px;
-  font-weight: bold;
-  color: #fb1603;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 38px;
+  background-clip: unset;
+  background: -webkit-linear-gradient(45deg,#de5128, #fb1603,#f11605, #b40000, #f34109, #f13d0a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: ;
   margin-top: 0;
   margin-bottom: 10%;
 }
@@ -75,6 +81,7 @@ header p {
 
 .guide-bar {
   border-bottom: 1px solid #ec5242;
+  background: none;
   width: 53px;
   margin: 0px auto 54px;
 }
@@ -159,6 +166,11 @@ header p {
   margin-bottom: 4%;
 }
 
+.events h2 {
+  color: #5d5d5d;
+  text-align: center;
+}
+
 .head-about .box-margin {
   font-weight: 400;
   background: #fff;
@@ -168,7 +180,7 @@ header p {
   margin-bottom: 4%;
 }
 
-.head-about p{
+.head-about p {
   padding: 0 3% 0 3%;
   margin-bottom: 0%;
 }
@@ -176,9 +188,11 @@ header p {
 .logo {
   text-align: center;
   color: #5d5d5d;
+  padding: 5%;
 }
 
-.logo p {
+.logo p,
+.events p {
   padding: 0 10%;
   font-weight: 400;
   line-height: 19px;
@@ -186,5 +200,71 @@ header p {
 
 .logo img {
   border: 1px solid #d3d3d3;
+}
+
+.events {
+  font-weight: 400;
+  line-height: 19px;
+  padding: 5%;
+  text-align: center;  
+}
+
+.event-list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.events img {
+  width: 75vw;
+  margin: 2%;
+}
+
+footer {
+  text-align: center;
+}
+
+.footer01 {
+  background-color: #272a31;
+  color: #fff;
+  padding: 2% 0;
+}
+
+footer .guide-bar {
+  margin-bottom: 0;
+}
+
+.sponsors {
+  background-color: #272a31;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2% 5% 10% 5%;
+  justify-content: center;
+  align-content: center;
+}
+
+.sponsors img {
+  height: 50px;
+  padding: 4% 4%;
+}
+
+.rights {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+  padding: 4% 0% 12% 0%;
+}
+
+.rights img {
+  height: 20px;  
+}
+
+.rights p {
+  text-align: left;
+  font-weight: 400;
+  padding: 2% 4%;
 }
 
