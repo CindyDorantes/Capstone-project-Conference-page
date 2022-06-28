@@ -8,6 +8,10 @@ body {
   margin: 0;
 }
 
+.active-desktop {
+  display: none;
+}
+
 .top-ribbon {
   display: none;
 }
@@ -101,9 +105,14 @@ header p {
   flex-direction: column;
 }
 
+.activities a:hover {
+  border: 2px solid #d3d3d3;
+}
+
 .activity-item {
   padding: 2%;
   display: flex;
+  flex-direction: row;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);  
   margin: 3%;
@@ -159,7 +168,11 @@ header p {
   margin-top: 10%;
 }
 
-/* CSS for ABOUT */
+.foot-main {
+  display: none;
+}
+
+/*************** CSS for ABOUT *************/
 .head-about {
   text-align: center;
   background-color: #f7f7f7;
@@ -212,7 +225,7 @@ header p {
 }
 
 .logo img {
-  border: 1px solid #d3d3d3;
+  border: 0.5px solid #d3d3d3;
 }
 
 .events {
@@ -236,6 +249,10 @@ header p {
 
 footer {
   text-align: center;
+}
+
+footer h2 {
+  font-size: 24px;
 }
 
 .footer01 {
@@ -284,12 +301,21 @@ footer .guide-bar {
 /*************** media query for desktop version ****************/
 
 @media only screen and (min-width: 768px) {
+  
+  .active-desktop {
+    display: block;
+  }
+
+  .active-mobile {
+    display: none;
+  }
+  
   .top-ribbon {
     display: flex;
     justify-content: end;
     background-color: #272a31;
     color: #d3d3d3;
-    padding: 1% 7.5%;
+    padding: .5% 7.5%;
   }
 
   .ribbon-item {
@@ -300,12 +326,24 @@ footer .guide-bar {
     cursor: pointer;
   }
 
+  .wrap-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 7.5%;
+    margin-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px 0px;
+    background-color: #f7f7f7;
+  }
+
+  .wrap-nav img {
+    height: 30px;
+  }
+
   .nav-bar {
     display: flex;
     justify-content: end;
-    padding: 2% 7.5%;
-    margin-bottom: 5px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px 0px;
+    align-items: center;
+    
   }
 
   .nav-bar a {
@@ -357,23 +395,19 @@ footer .guide-bar {
 
   .activities {
     flex-direction: row;
-    margin: 0 5%;
+    justify-content: center;
+    margin: 0% 5%;
   }
 
   .activity-item {
     flex-direction: column;
     padding: 0% 5px 0% 5px;
     margin: 0 0 0 3px;
-    width: calc(20% - 3px);
     max-width: 180px;
   }
 
-  .activity-item a {
+  .activities a {
     text-decoration: none;
-  }
-
-  .activity-item a:hover {
-    border: 2px solid #d3d3d3;
   }
   
   .icon {
@@ -408,5 +442,81 @@ footer .guide-bar {
     color: #d3d3d3;
     font-size: 18px;
     font-weight: 400;
+  }
+
+  .foot-main {
+    display: block;
+  }
+
+  .sponsors img {
+    height: 75px;
+    padding: 10px;
+  }
+
+  .rights {
+    padding-left: 35px;
+    padding-bottom: 50px;
+  }
+
+  .rights img {
+    height: 35px;
+  }
+
+  .rights p {
+    width: calc(90% - 300px)
+  }
+
+  /*********DESKTOP FOR ABOUT PAGE*********/
+  .head-about {
+    background-image: url("./images/desktop_about_bg.png");
+    padding-bottom: 80px;
+  }
+  
+  .head-wrap {
+    padding: 6% 5% 0% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .h2-about {
+    display: none;
+  }
+
+  .head-about h1 {
+    text-align: center;
+    width: 75%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+  }
+
+  .box-margin.about {
+    width: 80%;
+  }
+
+  .logo {
+    border-bottom: 1px solid #d3d3d3;
+  }
+
+  .logo h2, 
+  .events h2{
+    font-size: 24px;
+  }
+
+  .logo img {
+    width: 550px;
+    margin-top: 15px;
+  }
+
+  .events img {
+    width: auto;
+    margin: 12px;
+  }
+
+  .rights.about {
+    background-color: #272a31;
+    color: #d3d3d3;
   }
 }
