@@ -105,6 +105,10 @@ header p {
   flex-direction: column;
 }
 
+.activities a {
+  text-decoration: none;
+}
+
 .activities a:hover {
   border: 2px solid #d3d3d3;
 }
@@ -160,12 +164,57 @@ header p {
 
 .speakers {
   text-align: center;
+  padding-bottom: 8%;
 }
 .speakers h2 {
   text-align: center;
   font-size: 24px;
   font-weight: 700;
   margin-top: 10%;
+}
+
+.speaker-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 2%;
+}
+
+.speaker-img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.speaker-item img {
+  height: 30vw;
+  padding: 2%;
+}
+
+.speaker-description {
+  text-align: left;
+  padding: 0% 3%;
+}
+
+.speaker-description h3 {
+  color: #272a31;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0%;
+}
+
+.speaker-description h4 {
+  font-size: 14px;
+  line-height: 14px;
+  color: #ec5242;
+  font-style: italic;
+  margin: 0%;
+  padding: 5% 0%;
+}
+
+.guide-grey {
+  width: 20px;
+  border: 1px solid #d3d3d3;
 }
 
 .foot-main {
@@ -404,11 +453,7 @@ footer .guide-bar {
     padding: 0% 5px 0% 5px;
     margin: 0 0 0 3px;
     max-width: 180px;
-  }
-
-  .activities a {
-    text-decoration: none;
-  }
+  }  
   
   .icon {
     margin-top: 20px;
