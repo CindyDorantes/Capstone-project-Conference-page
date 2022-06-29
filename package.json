@@ -1,0 +1,31 @@
+{
+  "name": "capstone-project-conference-page",
+  "version": "1.0.0",
+  "description": "<a href='https://www.freepik.com/vectors/shapes-alphabet'>Shapes alphabet vector created by Rochak Shukla - www.freepik.com</a>",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CindyDorantes/Capstone-project-Conference-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CindyDorantes/Capstone-project-Conference-page/issues"
+  },
+  "homepage": "https://github.com/CindyDorantes/Capstone-project-Conference-page#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^7.0.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
