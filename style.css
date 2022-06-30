@@ -76,6 +76,7 @@ body {
   color: #5d5d5d;
   cursor: pointer;
 }
+
 /* finish hamburguer menu */
 
 .head-intro {
@@ -260,6 +261,7 @@ header p {
 
 .speaker-description {
   text-align: left;
+  font-size: 12px;
   padding: 0% 3%;
   width: 60%;
 }
@@ -283,10 +285,6 @@ header p {
 .guide-grey {
   width: 20px;
   border: 1px solid #d3d3d3;
-}
-
-.speaker-description {
-  font-size: 12px;
 }
 
 .foot-main {
@@ -471,7 +469,7 @@ footer .guide-bar {
     color: #272a31;
     cursor: pointer;
     padding: 11px 15px;
-    margin: 10px 20px
+    margin: 10px 20px;
   }
 
   .nav-bar a:hover {
@@ -580,7 +578,7 @@ footer .guide-bar {
   }
 
   .speaker-img img {
-    height: fit-content;
+    height: auto;
   }
 
   .foot-main {
