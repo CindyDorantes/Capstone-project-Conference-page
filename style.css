@@ -103,6 +103,7 @@ h1 {
   font-weight: 900;
   line-height: 38px;
   background: -webkit-linear-gradient(45deg, #de5128, #fb1603, #f11605, #b40000, #f34109, #f13d0a);
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 0;
