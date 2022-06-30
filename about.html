@@ -32,7 +32,19 @@
     </nav>
   </div>
   <header class="head-about">
-    <nav class="hamburguer"><img src="./Images/Union.png" alt="hamburguer menu"></nav>
+    <!-- here begins the mobile menu for javascript -->
+    <div class="mobile-menu active-mobile">
+      <span class="close"><i class="fa-solid fa-xmark"></i></span>
+      <nav class="mobile-nav">
+        <a class="mobile-link" href="./index.html">Home</a>
+        <a class="mobile-link" href="#">Program</a>
+        <a class="mobile-link" href="#">Sponsors</a>
+        <a class="mobile-link" href="#">News</a>
+        <a class="mobile-link" id="nav-red" href="#">FI Campaign</a>
+      </nav>
+    </div>
+    <!-- here finishes the mobile menu for javascript -->
+    <nav class="hamburguer"><i class="fa-solid fa-bars"></i></nav>
     <div class="head-wrap">
       <h2 class="heading-red h2-about">"Hello! Sharing world"</h2>
       <h1>FOOD INDUSTRY GLOBAL SUMMIT 2022</h1>
@@ -121,6 +133,7 @@
       </p>
     </div>
   </footer>
-    
+  <script src="./main.js"></script>
+      
 </body>
 </html>
