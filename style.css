@@ -248,6 +248,10 @@ header p {
   padding: 4%;
 }
 
+.hidden {
+  display: none;
+}
+
 .speaker-img {
   display: flex;
   justify-content: center;
@@ -281,6 +285,25 @@ header p {
   font-style: italic;
   margin: 0%;
   padding: 5% 0%;
+}
+
+.more-btn {
+  border: 1px solid #d3d3d3;
+  background-color: #fff;
+  border-radius: 4px;
+  font-family: inherit;
+  width: 90%;
+  padding: 15px;
+  color: #272a31;
+  cursor: pointer;
+}
+
+.more-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0 2px 8px 0;
+}
+
+.fa-solid {
+  color: #ec5242;
 }
 
 .guide-grey {
@@ -576,6 +599,10 @@ footer .guide-bar {
   .speaker-item {
     max-width: 540px;
     padding: 25px 10px;
+  }
+
+  .hidden {
+    display: flex;
   }
 
   .speaker-img img {

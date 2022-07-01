@@ -67,10 +67,14 @@ const speakersInfo = [
 
 // CREATE SPEAKERS CARDS //
 
+let speakerItem;
+
 for (let i = 0; i < speakersInfo.length; i += 1) {
-  const speakerItem = document.createElement('div');
+  speakerItem = document.createElement('div');
   speakerItem.classList.add('speaker-item');
   sectionSpeakers.appendChild(speakerItem);
+
+  if (i >= 2) speakerItem.classList.add('hidden', 'extra');
 
   const speakerImgWrap = document.createElement('div');
   speakerImgWrap.classList.add('speaker-img');
