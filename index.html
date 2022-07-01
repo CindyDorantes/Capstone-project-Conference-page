@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@800;900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/efb11c3b99.js" crossorigin="anonymous"></script> 
+</head>
+
+<body>
+  <div class="top-ribbon">
+    <a href="#" class="ribbon-item"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#" class="ribbon-item"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#" class="ribbon-item">English</a>
+    <a href="#" class="ribbon-item">My page</a>
+    <a href="#" class="ribbon-item">Logout</a>
+  </div>
+  <div class="wrap-nav active-desktop">
+    <a href="./index.html"><img src="./images/logo-navbar.png" alt="logo"></a>
+    <nav class="nav-bar">
+      <a href="./about.html">About</a>
+      <a href="#">Program</a>
+      <a href="#">Join</a>
+      <a href="#">Sponsors</a>
+      <a href="#">News</a>
+      <a href="#" id="nav-red">FI Campaign</a>
+    </nav>
+  </div>
+
+  <header class="head-intro">
+    <!-- here begins the mobile menu for javascript -->
+    <div class="mobile-menu active-mobile">
+      <span class="close"><i class="fa-solid fa-xmark"></i></span>
+      <nav class="mobile-nav">
+        <a class="mobile-link" href="./about.html">About</a>
+        <a class="mobile-link" href="#">Program</a>
+        <a class="mobile-link" href="#">Sponsors</a>
+        <a class="mobile-link" href="#">News</a>
+        <a class="mobile-link" href="#">FI Campaign</a>
+      </nav>
+    </div>
+    <!-- here finishes the mobile menu for javascript -->
+    <nav class="hamburguer"><i class="fa-solid fa-bars"></i></nav>
+    <h2 class="heading-red">"Hello! Sharing world"</h2>
+    <h1>FOOD INDUSTRY GLOBAL SUMMIT 2022</h1>
+    <p class="box-margin">
+      The unmissable event for professionals in the food and beverage industry from over 80 countries, 
+      is taking place in October, in Mexico.
+    </p>
+    <p class="date">
+      2022.10.13(THU) - 14(FRI)
+    </p>
+    <p class="place">
+      @ Centro Citibanamex, Museo Nacional de Antropología and more
+    </p>
+  </header>
+
+  <section class="program">
+    <h2 class="dark-heading">Main Program</h2>
+    <div class="guide-bar"></div>
+    <div class="activities">
+      <a href="">
+        <div class="activity-item">
+          <img src="./images/icon-lecture.png" alt="icon of a person behind an lectern" class="icon">
+          <h3>Lecture</h3>
+          <p>
+            Get inspired and discover the trends from outstanding personalities in the sector.
+          </p>
+        </div>
+      </a>
+      <a href="">
+        <div class="activity-item">
+            <img src="./images/icon-exhibition.png" alt="icon of a board and a poster" class="icon">
+            <h3>Exposition</h3>
+            <p>
+              Expo floor with ingredients, additives, solutions and packaging for F&B
+            </p>
+        </div>
+      </a>
+      <a href="">
+        <div class="activity-item">
+            <img src="./images/icon-forum.png" alt="icon of dialog bubbles" class="icon">
+            <h3>Forum</h3>
+            <p>
+              The discussion will begin with a riveting debate on the pros and cons of food processing.
+            </p>
+        </div>
+      </a>
+      <a href="">
+        <div class="activity-item">
+            <img src="./images/icon-workshop.png" alt="icon of a teaching board" class="icon">
+            <h3>Workshop</h3>
+            <p>
+              Watch ingredients and science meld into beautiful bites for you to sample at Cooking Up Science!
+            </p>
+        </div>
+      </a>
+      <a href="">
+        <div class="activity-item">
+            <img src="./images/icon-network.png" alt="icon of a person behind an lectern" class="icon">
+            <h3>Networking</h3>
+            <p>
+              More connecting, networking and fun that will enhance your overall experience.
+            </p>
+        </div>
+      </a>
+    </div> <!-- closing .activities div -->
+    <button type="button" class="join-btn">Join Food Industry Global Summit 2022</button>
+    <div class="whole-program">
+      <a href="#" class="program-link">SEE THE WHOLE PROGRAM</a>
+    </div>
+  </section> <!-- closing .program section -->
+
+  <section class="speakers">
+    <h2>Featured Speakers</h2>
+    <div class="guide-bar"></div>
+    <div class="speaker-wrap">
+      <!-- speakers informated created with JS -->  
+    </div>
+    <button type="button" class="more-btn active-mobile">MORE <i class="fa-solid fa-angle-down"></i></button>   
+  </section>
+
+  <footer class="foot-main">
+    <div class="footer01">
+      <h2>Sponsors</h2>
+      <div class="guide-bar"></div>
+    </div>
+    <div class="sponsors">
+      <img src="./images/sponsors/logo-unilever-gris-1.png" alt="logo unilever">      
+      <img src="./images/sponsors/logo-bimbo.png" alt="logo bimbo">
+      <img src="./images/sponsors/logo-lala.png" alt="logo lala">
+      <img src="./images/sponsors/pilgrims.png" alt="logo pilgrims">
+      <img src="./images/sponsors/logo-instituto-danone.png" alt="logo danone">
+    </div>
+    <div class="rights">      
+      <img src="./images/cck-logo1.png" alt="logo creative commons">      
+      <p>
+        2022 Creative Commons Korea
+        <br><br>
+        Some Rigths Reserved
+        <br><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, dolorum tempora, 
+        recusandae reiciendis alias impedit magnam, voluptatum incidunt minus aut labore velit? 
+        Tempore, inventore ipsa delectus ducimus ab non cumque.
+      </p>
+    </div>
+  </footer>
+  <script src="./main.js"></script>
+    
+</body>
+</html>
